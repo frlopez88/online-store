@@ -17,16 +17,21 @@ function App() {
   return (
     <>
       <Menu />
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/electronics' element={<Electronics />} />
-          <Route path='/drinks' element={<Drinks />} />
-          <Route path='/sports' element={<Sports />} />
-          <Route path='/invoice' element={<Invoice />} />
-          <Route path='/*' element={<Error />} />
-        </Routes>
-      </BrowserRouter>
+      <main className='container m-3'>
+        <BrowserRouter>
+          <Routes>
+
+            <Route path='/' element={<Home />} />
+            <Route path='/electronics' element={<Electronics />} />
+            <Route path='/drinks' element={<Drinks />} />
+            <Route path='/sports' element={<Sports />} />
+            <Route path='/invoice' element={<Invoice />} />
+            <Route path='/*' element={<Error />} />
+
+          </Routes>
+        </BrowserRouter>
+
+      </main>
     </>
   )
 }

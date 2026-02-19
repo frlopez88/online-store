@@ -22,6 +22,8 @@ export const Sports = () => {
 
   }
 
+  // on load - event that is triggered the first time the component
+  // is presented in the screen.
   useEffect(() => {
 
     getSports()
