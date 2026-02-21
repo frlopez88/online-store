@@ -10,6 +10,7 @@ import { Sports } from './pages/Sports'
 import { Invoice } from './pages/Invoice'
 import { Error } from './pages/Error'
 import { Menu } from './components/Menu'
+import { ChabotPage } from './pages/ChabotPage'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
             <Route path='/drinks' element={<Drinks />} />
             <Route path='/sports' element={<Sports />} />
             <Route path='/invoice' element={<Invoice />} />
+            <Route path='/ai' element={<ChabotPage/>} />
             <Route path='/*' element={<Error />} />
 
           </Routes>

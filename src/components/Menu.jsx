@@ -26,6 +26,9 @@ export const Menu = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="/invoice">Invoice</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/ai">Bot</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
